@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&display=swap');
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  color: rgb(12, 16, 106);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.subtitle {
+  font-size: 0.8rem;
+  text-align: center;
+  position: relative;
+  bottom: 0.5rem;
+}
+.Form {
+  /* width: 27rem; */
+  width: 60%;
+  padding: 3rem;
+  position: relative;
+  top: 7rem;
+  left: 3rem;
+
+  align-content: center;
+  text-align: center;
+  /* border: 2px solid rgb(12, 16, 106); */
+}
+
+.checkbox {
+  font-size: 0.8rem;
+}
+.forgot {
+  font-size: 0.8rem;
+}
+.FormLogin {
+  background-color: rgb(12, 16, 106);
+  color: white;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.6rem;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 95%;
+}
+.loginImage {
+  position: relative;
+  right: 14rem;
+  width: 60rem;
+  height: 38rem;
+  background-image: url('../image/meetings.jpg');
+  background-size: contain;
+  border: 2px solid rgb(12, 16, 106);
+}
+@media only screen and (max-width: 1450px) {
+  .loginImage {
+    position: relative;
+    right: 10rem;
+    width: 53rem;
+    height: 36rem;
+    background-image: url('../image/meetings.jpg');
+    background-size: contain;
+    /* border: 2px solid rgb(12, 16, 106); */
+  }
+}
+@media only screen and (max-width: 980px) {
+  .loginImage {
+    display: none;
+  }
+  .Form {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid rgb(12, 16, 106); */
+  }
+}
+@media only screen and (max-width: 849px) {
+  .loginImage {
+    display: none;
+  }
+  .Form {
+    width: 150%;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* border: 2px solid rgb(12, 16, 106); */
+  }
+}
+.success {
+  color: green;
+  font-size: 1rem;
+}
+.error {
+  color: red;
+  font-size: 1rem;
+}

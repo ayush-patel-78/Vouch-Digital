@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  color: rgb(12, 16, 106);
+}
+h2 span {
+  color: rgb(226, 125, 43);
+}
+.NavigationBar {
+  width: 100%;
+}
+
+.login {
+  background-color: rgb(229, 131, 50);
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 13rem;
+}
+.freeTrial {
+  background-color: rgb(12, 16, 106);
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 13rem;
+}
