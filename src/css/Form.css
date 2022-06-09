@@ -98,6 +98,18 @@ h3 {
     /* border: 2px solid rgb(12, 16, 106); */
   }
 }
+@media only screen and (max-width: 435px) {
+  .loginImage {
+    display: none;
+  }
+  .Form {
+    width: 100%;
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+    text-align: center;
+  }
+}
 .success {
   color: green;
   font-size: 1rem;
